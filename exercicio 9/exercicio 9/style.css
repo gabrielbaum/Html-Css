@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body {
+    background-color: #da6363;
+    font-family: Arial, sans-serif;
+}
+p {
+    color: #fff;
+    font-size: 1.2em;
+}
+div > p {
+    color: #fff;
+    font-size: 1.2em;
+    display: none;
+}
+div:hover > p {
+    display: block;
+}
+

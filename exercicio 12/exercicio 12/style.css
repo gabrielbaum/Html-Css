@@ -1,0 +1,14 @@
+@charset "UTF-8";
+a{
+    color: aquamarine;
+    background-color: black;
+    border-radius: 5px;
+    font-size: small;    
+}
+h1{
+    color: rgb(4, 3, 3);
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
