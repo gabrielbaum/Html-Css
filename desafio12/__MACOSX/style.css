@@ -74,6 +74,7 @@ font-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
   
 }
 
@@ -86,6 +87,7 @@ font-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
   
 }
 
@@ -117,6 +119,6 @@ font-size: 25px;
     background-attachment: scroll; /* garante rolagem no celular */
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
+    
   }
 }
