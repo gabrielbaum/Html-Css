@@ -69,7 +69,7 @@ font-size: 25px;
 
   color: white;
   background-image: url(imagens/background001.jpg);
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +81,7 @@ font-size: 25px;
 
   color: white;
   background-image: url(imagens/background002.jpg);
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
