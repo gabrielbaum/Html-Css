@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário</title>
+    <style>
+        
+        body{
+            height: 100vh;
+            background:linear-gradient(45deg ,#41A8BF, #B0D1D9,#F2B077 );
+
+        }
+        body>h1 {
+
+           display: flex;
+           justify-content: center;
+           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        nav>ul {
+
+            
+            display: flex;
+            padding: 20px;
+            margin: 20px;
+            gap: 20px;
+            list-style: none;
+            
+        }
+
+        .menu {
+            
+            text-align: center;
+            justify-content: center;
+            border: solid 1px rgba(159, 221, 224, 0.492) ;
+            width: 50px;
+            height: 25px;
+            border-radius: 5px;
+            
+        }
+
+        .menu:hover {
+
+
+            transform: scale(120%);
+            transition: 0.7s;
+            box-shadow: 0px 0px 25px white;
+        }
+        a {
+            text-decoration: none;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #602f07;
+            font-size: medium;
+        }
+
+        form {
+
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            align-items: center;
+            justify-content: center;
+            margin: 50px;
+            
+            
+            
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        
+        #enviar {
+
+            height: 25px;
+            width: 70px;
+            color: #090602;
+            background-color: #93d3e15f;
+            margin: 5px;
+            border: solid 1px rgba(159, 221, 224, 0.492) ;
+            border-radius: 5px;
+
+            
+
+        }
+
+        #enviar:hover{
+
+            transform: scale(115%);
+            transition: 0.5s;
+            box-shadow: 0px 0px 25px white;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li class="menu"><a href="">menu</a></li>
+            <li class="menu"><a href="">menu</a></li>
+            <li class="menu"><a href="">menu</a></li>
+            <li class="menu"><a href="">menu</a></li>
+        </ul>
+    </nav>
+    <h1>Teste de Formulário</h1>
+
+
+    <div class="form">
+        <form action="cadastro.php" method="post" >
+        
+            <label for="iemail">
+                <p>Email </p>
+            </label>
+            <input type="email" name="email" id="iemail" required >
+            <label for="isenha">
+                <p>Senha </p>
+            </label>
+            <input type="password" name="senha" id="isenha" required maxlength="8"
+            minlength="8"><br>
+            <input type="submit" value="Enviar" id="enviar" >
+            <input type="reset" value="Apagar" id="enviar" >
+        </form>
+    </div>
+
+
+    
+</body>
+</html>
